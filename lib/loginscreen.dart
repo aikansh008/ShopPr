@@ -38,11 +38,11 @@ class LoginScreen extends StatelessWidget {
            ),
              Container(
                 width: 200,
-                height: 35,
                 child: TextField(
                   maxLengthEnforcement: MaxLengthEnforcement.enforced,
                   decoration: 
                   InputDecoration(
+                    filled: true,
                     hintText: "Your Username or Email",
                     
                     border: OutlineInputBorder(
@@ -67,9 +67,11 @@ class LoginScreen extends StatelessWidget {
             ),
             Container(
                 width: 200,
-                height: 35,
+              
                 child: TextField(
+                  obscureText:true,
                   decoration: InputDecoration(
+                    filled: true,
                     hintText: "Password",
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11.0),

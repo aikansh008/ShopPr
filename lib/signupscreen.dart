@@ -47,10 +47,11 @@ class SignUp extends StatelessWidget {
              ),
                Container(
                   width: 200,
-                  height: 35,
+                  
                   child: TextField(
                     decoration: 
                     InputDecoration(
+                      filled: true,
                       hintText: "First and last name",
                       
                       border: OutlineInputBorder(
@@ -75,9 +76,10 @@ class SignUp extends StatelessWidget {
               ),
               Container(
                   width: 200,
-                  height: 35,
+                 
                   child: TextField(
                     decoration: InputDecoration(
+                      filled: true,
                       hintText: "Mobile Number",
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(11.0),
@@ -99,10 +101,11 @@ class SignUp extends StatelessWidget {
              ),
                Container(
                   width: 200,
-                  height: 35,
+                 
                   child: TextField(
                     decoration: 
                     InputDecoration(
+                      filled: true,
                       hintText: "Your Email",
                       
                       border: OutlineInputBorder(
@@ -126,12 +129,12 @@ class SignUp extends StatelessWidget {
              ),
                Container(
                   width: 200,
-                  height: 35,
                   child: TextField(
+                    obscureText: true,
                     decoration: 
                     InputDecoration(
                       hintText: "Must contain one Uppercase,Lowercase,specialcharachter",
-                      
+                      filled: true,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(11.0),
                         
@@ -153,10 +156,12 @@ class SignUp extends StatelessWidget {
              ),
                Container(
                   width: 200,
-                  height: 35,
+                 
                   child: TextField(
+                    obscureText: true,
                     decoration: 
                     InputDecoration(
+                      filled: true,
                       hintText: "Must be same as above",
                       
                       border: OutlineInputBorder(
